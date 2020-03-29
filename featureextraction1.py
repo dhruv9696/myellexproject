@@ -1,6 +1,7 @@
 import numpy as np
 from sklearn import preprocessing
 import python_speech_features as mfcc
+import math
 
 def calculate_delta(array):
     """Calculate and returns the delta of given feature vector matrix"""
